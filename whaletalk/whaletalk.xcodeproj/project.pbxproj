@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E076B9E81CB9EF7E00DCEF4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B9E71CB9EF7E00DCEF4E /* AppDelegate.swift */; };
-		E076B9EA1CB9EF7E00DCEF4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B9E91CB9EF7E00DCEF4E /* ViewController.swift */; };
+		E076B9EA1CB9EF7E00DCEF4E /* ChatViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B9E91CB9EF7E00DCEF4E /* ChatViewViewController.swift */; };
 		E076B9ED1CB9EF7E00DCEF4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E076B9EB1CB9EF7E00DCEF4E /* Main.storyboard */; };
 		E076B9EF1CB9EF7E00DCEF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E076B9EE1CB9EF7E00DCEF4E /* Assets.xcassets */; };
 		E076B9F21CB9EF7E00DCEF4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E076B9F01CB9EF7E00DCEF4E /* LaunchScreen.storyboard */; };
+		E076B9FA1CB9F2D100DCEF4E /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B9F91CB9F2D100DCEF4E /* Message.swift */; };
+		E076B9FC1CB9F59700DCEF4E /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E076B9FB1CB9F59700DCEF4E /* ChatCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E076B9E41CB9EF7E00DCEF4E /* whaletalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whaletalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E076B9E71CB9EF7E00DCEF4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E076B9E91CB9EF7E00DCEF4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E076B9E91CB9EF7E00DCEF4E /* ChatViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewViewController.swift; sourceTree = "<group>"; };
 		E076B9EC1CB9EF7E00DCEF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E076B9EE1CB9EF7E00DCEF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E076B9F11CB9EF7E00DCEF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E076B9F31CB9EF7E00DCEF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E076B9F91CB9F2D100DCEF4E /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E076B9FB1CB9F59700DCEF4E /* ChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				E076B9E71CB9EF7E00DCEF4E /* AppDelegate.swift */,
-				E076B9E91CB9EF7E00DCEF4E /* ViewController.swift */,
+				E076B9E91CB9EF7E00DCEF4E /* ChatViewViewController.swift */,
 				E076B9EB1CB9EF7E00DCEF4E /* Main.storyboard */,
 				E076B9EE1CB9EF7E00DCEF4E /* Assets.xcassets */,
 				E076B9F01CB9EF7E00DCEF4E /* LaunchScreen.storyboard */,
 				E076B9F31CB9EF7E00DCEF4E /* Info.plist */,
+				E076B9F91CB9F2D100DCEF4E /* Message.swift */,
+				E076B9FB1CB9F59700DCEF4E /* ChatCell.swift */,
 			);
 			path = whaletalk;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E076B9EA1CB9EF7E00DCEF4E /* ViewController.swift in Sources */,
+				E076B9FA1CB9F2D100DCEF4E /* Message.swift in Sources */,
+				E076B9FC1CB9F59700DCEF4E /* ChatCell.swift in Sources */,
+				E076B9EA1CB9EF7E00DCEF4E /* ChatViewViewController.swift in Sources */,
 				E076B9E81CB9EF7E00DCEF4E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
